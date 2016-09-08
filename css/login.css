@@ -1,0 +1,39 @@
+         @font-face {
+            	font-family: 'Roboto-Regular';
+            	src: url(../fonts/Roboto-Regular.ttf) format('truetype');
+            }
+            
+            @font-face {
+            	font-family: 'Dorsa-Regular';
+            	src: url(../fonts/Dorsa-Regular.ttf) format('truetype');
+            }
+            
+            body {
+            	font-family: 'Roboto-Regular';
+            }
+            
+     
+            .contact-info h3,.contact-form h3,.map h3{
+            	font-family: 'Dorsa-Regular';
+            	color: #803d9a;
+            	font-size:4em;
+            }
+            
+            .contact-info p{
+            	font-family:'Roboto-Regular';
+            	font-size: 1em;
+            	color:#393939;
+            	padding-bottom: 1em;
+            } 
+            
+            .map{
+            	padding:2em 0em 0em;
+            
+            }
+            
+            #allmap{
+            	border-radius:25px;
+            }
+            
+
+            

@@ -1,0 +1,73 @@
+             .banner {
+            	width: 100%;
+            	background: url(../img/header_bg.png) no-repeat center center;
+            	-webkit-background-size: cover;
+            	background-size: cover;
+            }
+            
+            .banner-content {
+            	width: 50%;
+            	margin: 0 auto;
+            	background-color: rgba(228, 98, 137, 0.8);
+            	padding: 4% 4% 1%;
+            	color: #FFFFFF;
+            }
+            
+            .banner-content a {
+            	color: #FFFFFF;
+            	text-decoration: none;
+            }
+            
+            .banner-content>h1 {
+            	font-family: 'Dorsa-Regular';
+            	font-size: 20em;
+            	line-height: 0.5em;  
+            } 
+            .banner-content>h1 span {
+            	font-size: 0.5em;
+            }
+            .banner-content h5 {
+            	font-size: 1.4em;
+            	border-bottom: 1px dashed #FFFFFF;
+            }    
+             @media only screen and (max-width: 1200px) {
+            	.banner-content {
+            		width: 60%;
+            	}
+            	.banner-content>h1 {
+            		font-size: 15em;
+            	}
+            }       
+            @media only screen and (max-width: 768px) {
+            	
+            	.banner-content {
+            		width: 60%;
+            	}
+            	.banner-content>h1 {
+            		font-size: 10em;
+            	}
+            }           
+            @media only screen and (max-width: 554px) {
+           	
+            	.banner-content {
+            		width: 70%;
+            	}
+            	.banner-content>h1 {
+            		font-size: 8em;
+            	}
+            }
+            
+          .footer {
+            	background-color: #803d9a;
+            	text-align: center;
+            	color: #FFFFFF;
+            	font-size: 1em;
+            	line-height: 4em;
+            	margin-bottom: 0px;
+            	padding-bottom: 0px;
+            }
+                .footer  p{
+                	padding: 0px;
+                	margin: 0px;
+                }
+            

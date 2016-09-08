@@ -1,0 +1,100 @@
+
+body {
+	font-family: 'Roboto-Regular';
+	/*list-style: none;*/
+	text-decoration: none;
+}
+
+.head {
+	width: 100%;
+	background: url(../img/head_bg.png)no-repeat center center;
+	background-size: cover ;
+}
+
+@font-face {
+	font-family: 'Dorsa-Regular';
+	src: url(../fonts/Dorsa-Regular.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url(../fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+
+.new_title{
+	font-family: 'Dorsa-Regular';
+	text-align: center;
+	color: rgba(238, 35, 120, 1);
+	font-size: 80px;
+}
+
+.line{
+	margin-bottom: 30px;
+}
+
+.wrap-imag{
+	background-color:rgba(236,183,49,0.8);
+	/*opacity: 0.5;*/
+	overflow: hidden;
+	position: relative;
+	/*z-index: -10;*/
+	/*display: inline-block;*/
+	margin: 0px;
+	/*vertical-align: middle;*/
+}
+
+.wrap-imag p{
+
+	position: absolute;
+    z-index:1;
+    font-family: 'Dorsa-Regular';
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	opacity: 0;
+    top: 50%;
+    line-height: 1em; 
+    margin-top: -50px;
+    padding:0px 20px ;
+}
+
+
+.wrap-imag img{
+	transition: all  0.5s ease-in;
+	z-index: 2;
+}
+
+.line:hover img{
+	opacity: 0.5;
+	position: relative;
+}
+.line:hover p{
+	opacity: 1;
+	z-index: 10;
+	-webkit-transition: all  0.5s ease-in 0.3s;
+}
+
+
+@media only screen and (max-width: 990px) {
+	
+	.wrap-imag p{
+	 padding:0px 10px;
+     font-size: 40px;
+     margin-top: -40px;
+	}
+}
+
+ @media (max-width: 768px){
+ 	
+ 	.col-xs-6-hidden{
+ 		display: none;
+ 	}
+ 	
+ 	.wrap-imag p{
+	
+     padding:0px 20px;
+     font-size: 30px;
+     margin-top: -30px;
+   }
+}  
